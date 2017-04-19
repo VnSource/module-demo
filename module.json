@@ -1,0 +1,26 @@
+{
+  "name": "vnsource/module-demo",
+  "displayName": "Demo",
+  "type": "module",
+  "description": "The VnSource Module Demo",
+  "homepage": "https://github.com/vnsource/module-demo",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Mr. VnS",
+      "email": "lienhe.vns@gmail.com"
+    }
+  ],
+  "autoload": {
+      "files": [
+        "helpers.php"
+      ],
+      "psr-4": {
+          "VnsModules\\Demo\\": "/"
+      }
+  },
+  "providers": [
+    "VnsModules\\Demo\\ModuleServiceProvider"
+  ]
+}
